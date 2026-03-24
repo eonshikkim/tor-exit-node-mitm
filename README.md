@@ -82,7 +82,7 @@ Open a new terminal (Terminal 2) on the host machine.
 **Terminal 2** — Login to the executed container:
 
 ```bash
-docker exec -it tor-lab /bin/bash
+docker exec -it test2 /bin/bash
 ```
 
 Create the `attacker.py` using nano editor inside of the container:
