@@ -118,5 +118,5 @@ python3 victim.py
 
 ## Proof of Concept
 
-![Credential Interception](images/figure3.png)
+![Credential Interception](figure3.png)
 > Picture: Successful interception of credentials sent over Tor.
