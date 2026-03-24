@@ -27,6 +27,9 @@ This POC simulated a man-in-the-middle attack on the custom Tor exit node. To gu
 - Python 3.x (Host Machine)
 - Essential Python libraries (Host): `requests`, `PySocks`
 
+```bash
+pip install requests PySocks
+```
 ---
 
 ### 1. Build the Malicious Node - Docker
