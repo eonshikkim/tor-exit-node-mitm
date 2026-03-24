@@ -64,7 +64,7 @@ printf "DataDirectory /var/lib/tor\nSocksPort 0.0.0.0:9050\nORPort 9001\nExitRel
 
 ### Stage 1: Start the Tor Service
 
-From the Terminal 1 that login with root access, configure the privilege and start the tor service.
+From the Terminal 1 that is logged in with root access, configure the privilege and start the tor service.
 
 ```bash
 chown -R root:root /var/lib/tor
@@ -79,7 +79,7 @@ tor -f /etc/tor/torrc
 
 Open a new terminal (Terminal 2) on the host machine.
 
-**Terminal 2** — Login to the executed container:
+**Terminal 2** — Log in to the executed container:
 
 ```bash
 docker exec -it test2 /bin/bash
